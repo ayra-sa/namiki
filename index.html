@@ -12,9 +12,10 @@
     <!-- link css -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
-    <!-- owl carousel -->
-    <link rel="stylesheet" href="assets/OwlCarousel2/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/OwlCarousel2/owl.theme.default.min.css">
+    <!-- Swiper -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
 </head>
 <body>
@@ -37,10 +38,16 @@
                     </div>
 
                     <div class="navbar-right">
-                        <a href="" class=""><img src="assets/images/world.svg" alt="icon"></a>
+                        <a href="" class="language"><img src="assets/images/world.svg" alt="icon"></a>
                         <a href="#" class="btn btn-secondary">Contact</a>
                         <a href="#" class="btn btn-primary">Free Trial</a>
                     </div>
+
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                      </div>
                 </div>
             </div>
         </nav>
@@ -150,7 +157,7 @@
         <!-- Features end -->
 
         <!-- Project Management -->
-        <section class="section">
+        <section class="section" id="pm">
             <div class="container">
                 <div class="col-wrap">
                     <div class="left-content">
@@ -326,7 +333,7 @@
         <!-- Call video call end -->
 
         <!-- Customize -->
-        <section class="section">
+        <section id="customize">
             <div class="container">
                 <div class="customize-wrap center">
                     <p class="top-menu">CUSTOMIZE</p>
@@ -341,49 +348,170 @@
         <!-- Work -->
         <section id="work">
             <div class="container">
-                <img src="assets/images/better-fit.png" alt="work">
-                <div class="owl-carousel owl-theme">
-                    <div class="slider-content">
-                        <img src="assets/images/photo.png" alt="person">
-                        <div class="desc">
-                            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere massa eu lobortis. Maecenas maximus vel tellus eu pharetra. Mauris in finibus est, eget volutpat nulla. Sed id felis sed urna rutrum cursus. Curabitur tincidunt orci.</p>
-                            <div class="name">
-                                <h2>John Doe</h2>
-                                <p>Sales Manager at Company Name</p>
+                <img src="assets/images/better-fit.png" class="img-work" alt="work">
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="slider-content">
+                            <img src="assets/images/photo.png" alt="person">
+                            <div class="desc">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere massa eu lobortis. Maecenas maximus vel tellus eu pharetra. Mauris in finibus est, eget volutpat nulla. Sed id felis sed urna rutrum cursus. Curabitur tincidunt orci.</p>
+                                <div class="name">
+                                    <h2>John Doe</h2>
+                                    <p>Sales Manager at Company Name</p>
+                                </div>
                             </div>
                         </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="slider-content">
+                            <img src="assets/images/photo.png" alt="person">
+                            <div class="desc">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere massa eu lobortis. Maecenas maximus vel tellus eu pharetra. Mauris in finibus est, eget volutpat nulla. Sed id felis sed urna rutrum cursus. Curabitur tincidunt orci.</p>
+                                <div class="name">
+                                    <h2>John Doe</h2>
+                                    <p>Sales Manager at Company Name</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="slider-content">
+                            <img src="assets/images/photo.png" alt="person">
+                            <div class="desc">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere massa eu lobortis. Maecenas maximus vel tellus eu pharetra. Mauris in finibus est, eget volutpat nulla. Sed id felis sed urna rutrum cursus. Curabitur tincidunt orci.</p>
+                                <div class="name">
+                                    <h2>John Doe</h2>
+                                    <p>Sales Manager at Company Name</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="slider-content">
-                        <img src="assets/images/photo.png" alt="person">
-                        <div class="desc">
-                            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere massa eu lobortis. Maecenas maximus vel tellus eu pharetra. Mauris in finibus est, eget volutpat nulla. Sed id felis sed urna rutrum cursus. Curabitur tincidunt orci.</p>
-                            <div class="name">
-                                <h2>John Doe</h2>
-                                <p>Sales Manager at Company Name</p>
-                            </div>
-                        </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                  </div>
+                </div>
+            </section>
+            <!-- Work end -->
+            <div class="container">
+                <div class="all-of-your">
+                    <div class="aoy-left">
+                        <h1>All Of Your Work In Astrac</h1>
+                        <p class="mt-2">Contact Us To Start Free Trial Or If You Have Any Question</p>
                     </div>
-                    <div class="slider-content">
-                        <img src="assets/images/photo.png" alt="person">
-                        <div class="desc">
-                            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere massa eu lobortis. Maecenas maximus vel tellus eu pharetra. Mauris in finibus est, eget volutpat nulla. Sed id felis sed urna rutrum cursus. Curabitur tincidunt orci.</p>
-                            <div class="name">
-                                <h2>John Doe</h2>
-                                <p>Sales Manager at Company Name</p>
-                            </div>
-                        </div>
+                    <div class="aoy-right">
+                        <a href="#" class="btn btn-secondary">Contact</a>
+                        <a href="#" class="btn btn-primary bg-white">Free Trial</a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Work end -->
+
+            <!-- Footer -->
+            <footer>
+                <div class="container">
+                    <div class="footer-wrap">
+                        <div class="footer-left">
+                            <a href="#" class="brand">
+                                <img src="assets/images/logo-footer.svg" alt="brand">
+                            </a>
+                            <p class="subtitle mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi.</p>
+                            
+                            <div class="lang">
+                                <img src="assets/images/world-black.svg" alt="icon">
+                                English
+                            </div>
+                        </div>
+                        <div class="footer-right">
+
+                            <ul class="footer-menu">
+                                <li><h2>Product</h2></li>
+                                <li><a href="#">Product Tour</a></li>
+                                <li><a href="#">Benefit</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Help Center</a></li>
+                            </ul>
+                            <ul class="footer-menu">
+                                <li><h2>Feature</h2></li>
+                                <li><a href="#">Project</a></li>
+                                <li><a href="#">Management</a></li>
+                                <li><a href="#">Chat</a></li>
+                                <li><a href="#">File Manager</a></li>
+                                <li><a href="#">Call & Video Call</a></li>
+                                <li><a href="#">Mail</a></li>
+                                <li><a href="#">Event</a></li>
+                            </ul>
+                            <ul class="footer-menu">
+                                <li><h2>Pricing</h2></li>
+                                <li><a href="#">Plans</a></li>
+                                <li><a href="#">FaQ</a></li>
+                            </ul>
+                            <ul class="footer-menu">
+                                <li><h2>Company</h2></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Partner Program</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Free Trial</a></li>
+                                <li><a href="#">Document</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="copyright">
+                            <span>© Astrac 2021</span>
+                            <a href="#">Security</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                        </div>
+                        <div class="socmed">
+                            <a href="#"><img src="assets/images/socmed/twitter.svg" alt="socmed"></a>
+                            <a href="#"><img src="assets/images/socmed/fb.svg" alt="socmed"></a>
+                            <a href="#"><img src="assets/images/socmed/linkedin.svg" alt="socmed"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
     </main>
     <!-- Main end -->
 
     <script src="assets/js/main.js"></script>
 
-    <script src="jquery.min.js"></script>
-    <script src="assets/OwlCarousel2/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script type="module">
+    import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+  
+    const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    
+  });
+  </script>
     
     
 </body>
