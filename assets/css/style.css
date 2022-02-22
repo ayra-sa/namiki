@@ -314,7 +314,7 @@ nav {
 }
 
 .hero {
-  background-image: url("/assets/images/hero-bg.png");
+  background-image: url("../images/hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -414,7 +414,7 @@ main {
 
 /* Chat */
 #chat {
-  background-image: url("/assets/images/chat-bg.png");
+  background-image: url("../images/chat-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5% 0;
