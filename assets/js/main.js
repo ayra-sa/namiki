@@ -13,7 +13,7 @@ function mobileMenu() {
     // main.classList.toggle('on')
 }
 
-const navLink = document.querySelectorAll(".nav-link");
+const navLink = document.querySelectorAll(".link-item");
 
 navLink.forEach(n => n.addEventListener("click", closeMenu));
 
@@ -23,3 +23,14 @@ function closeMenu() {
     // hero.classList.remove('on')
     // main.classList.remove('on')
 }
+
+// Navbar on scroll
+
+const navbar = document.querySelector('.navbar');
+window.onscroll = () => {
+    if (window.scrollY > 500) {
+        navbar.classList.add('nav-colored');
+    } else {
+        navbar.classList.remove('nav-colored');
+    }
+};
