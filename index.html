@@ -21,12 +21,16 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
     <!-- Header -->
     <header>
       <!-- Navbar -->
-      <nav class="navbar">
+      <nav class="navbar" data-aos="fade-up">
         <div class="container">
           <div class="navbar-wrap">
             <div class="navbar-left">
@@ -80,7 +84,7 @@
 
       <section class="hero">
         <div class="container">
-          <div class="hero-wrap">
+          <div class="hero-wrap" data-aos="fade-up" data-aos-duration="1000">
             <h1 class="hero-title">
               Introducing The Only Tool <br />that You’ll Ever Need
             </h1>
@@ -97,9 +101,9 @@
 
     <!-- Main -->
     <main>
-      <section class="image-top">
+      <section class="image-top" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
-          <img src="assets/images/db-image.png" alt="db" />
+          <img src="assets/images/db-img.svg" alt="db" />
         </div>
       </section>
 
@@ -121,8 +125,8 @@
                 >Learn more <img src="assets/images/arrow.svg" alt="icon"
               /></a>
             </div>
-            <div class="right-content">
-              <img src="assets/images/product.png" alt="product" />
+            <div class="right-content" data-aos="fade-up">
+              <img src="assets/images/product.svg" alt="product" />
             </div>
           </div>
         </div>
@@ -138,7 +142,7 @@
             <p class="subtitle">Features are highlighted here</p>
 
             <div class="features-grid mt-4">
-              <div class="feature">
+              <div class="feature" data-aos="fade-up">
                 <div class="icon-box">
                   <img src="assets/images/icon/task-square.svg" alt="icon" />
                 </div>
@@ -151,7 +155,7 @@
                   >Learn more <img src="assets/images/arrow.svg" alt="icon"
                 /></a>
               </div>
-              <div class="feature">
+              <div class="feature" data-aos="fade-up">
                 <div class="icon-box">
                   <img src="assets/images/icon/messages.svg" alt="icon" />
                 </div>
@@ -164,7 +168,7 @@
                   >Learn more <img src="assets/images/arrow.svg" alt="icon"
                 /></a>
               </div>
-              <div class="feature">
+              <div class="feature" data-aos="fade-up">
                 <div class="icon-box">
                   <img src="assets/images/icon/folder-open.svg" alt="icon" />
                 </div>
@@ -177,7 +181,7 @@
                   >Learn more <img src="assets/images/arrow.svg" alt="icon"
                 /></a>
               </div>
-              <div class="feature">
+              <div class="feature" data-aos="fade-up">
                 <div class="icon-box">
                   <img src="assets/images/icon/call-calling.svg" alt="icon" />
                 </div>
@@ -190,7 +194,7 @@
                   >Learn more <img src="assets/images/arrow.svg" alt="icon"
                 /></a>
               </div>
-              <div class="feature">
+              <div class="feature" data-aos="fade-up">
                 <div class="icon-box">
                   <img src="assets/images/icon/sms-tracking.svg" alt="icon" />
                 </div>
@@ -203,7 +207,7 @@
                   >Learn more <img src="assets/images/arrow.svg" alt="icon"
                 /></a>
               </div>
-              <div class="feature">
+              <div class="feature" data-aos="fade-up">
                 <div class="icon-box">
                   <img src="assets/images/icon/star.svg" alt="icon" />
                 </div>
@@ -266,12 +270,17 @@
               /></a>
             </div>
 
-            <div class="right-content img">
-              <img src="assets/images/project-management.png" alt="project" />
+            <div class="right-content img" data-aos="fade-up">
+              <img src="assets/images/project-management.svg" alt="project" />
             </div>
           </div>
         </div>
+
+        <div class="decor">
+          <img src="assets/images/blur-gradient.svg" alt="decor">
+        </div>
       </section>
+
       <!-- Project Management end -->
 
       <!-- Chat -->
@@ -280,9 +289,10 @@
           <div class="col-wrap">
             <div class="left-content">
               <img
-                src="assets/images/chat.png"
+                src="assets/images/chat.svg"
                 alt="project"
                 class="img left"
+                data-aos="fade-up"
               />
             </div>
 
@@ -374,8 +384,8 @@
               /></a>
             </div>
 
-            <div class="right-content img">
-              <img src="assets/images/file-manager.png" alt="project" />
+            <div class="right-content img" data-aos="fade-up">
+              <img src="assets/images/file-manager.svg" alt="project" />
             </div>
           </div>
         </div>
@@ -388,9 +398,10 @@
           <div class="col-wrap">
             <div class="left-content">
               <img
-                src="assets/images/call-vidcal.png"
+                src="assets/images/call-vidcal.svg"
                 alt="project"
                 class="img left"
+                data-aos="fade-up"
               />
             </div>
 
@@ -435,6 +446,10 @@
             </div>
           </div>
         </div>
+
+        <div class="decor left">
+          <img src="assets/images/blur-gradient2.svg" alt="decor">
+        </div>
       </section>
       <!-- Call video call end -->
 
@@ -454,13 +469,16 @@
             /></a>
           </div>
         </div>
+        <div class="decor">
+          <img src="assets/images/blur-gradient3.svg" alt="decor">
+        </div>
       </section>
       <!-- Customize end -->
 
       <!-- Work -->
       <section id="work">
         <div class="container">
-          <img src="assets/images/better-fit.png" class="img-work" alt="work" />
+          <img src="assets/images/better-fit.svg" class="img-work" alt="work" data-aos="fade-up" />
 
           <div class="swiper">
             <!-- Additional required wrapper -->
@@ -468,7 +486,25 @@
               <!-- Slides -->
               <div class="swiper-slide">
                 <div class="slider-content">
-                  <img src="assets/images/photo.png" alt="person" />
+                  <img src="assets/images/photo.svg" alt="person"  data-aos="fade-up"/>
+                  <div class="desc" data-aos="fade-up">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum varius pharetra mi. Ut tristique posuere massa
+                      eu lobortis. Maecenas maximus vel tellus eu pharetra.
+                      Mauris in finibus est, eget volutpat nulla. Sed id felis
+                      sed urna rutrum cursus. Curabitur tincidunt orci.
+                    </p>
+                    <div class="name">
+                      <h2>John Doe</h2>
+                      <p>Sales Manager at Company Name</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider-content">
+                  <img src="assets/images/photo.svg" alt="person" />
                   <div class="desc">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -486,25 +522,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="slider-content">
-                  <img src="assets/images/photo.png" alt="person" />
-                  <div class="desc">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vestibulum varius pharetra mi. Ut tristique posuere massa
-                      eu lobortis. Maecenas maximus vel tellus eu pharetra.
-                      Mauris in finibus est, eget volutpat nulla. Sed id felis
-                      sed urna rutrum cursus. Curabitur tincidunt orci.
-                    </p>
-                    <div class="name">
-                      <h2>John Doe</h2>
-                      <p>Sales Manager at Company Name</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider-content">
-                  <img src="assets/images/photo.png" alt="person" />
+                  <img src="assets/images/photo.svg" alt="person" />
                   <div class="desc">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -535,7 +553,7 @@
       </section>
       <!-- Work end -->
       <div class="container">
-        <div class="all-of-your">
+        <div class="all-of-your" data-aos="fade-up">
           <div class="aoy-left">
             <h1>All Of Your Work In Astrac</h1>
             <p class="mt-2">
@@ -550,7 +568,7 @@
       </div>
 
       <!-- Footer -->
-      <footer>
+      <footer data-aos="fade-up">
         <div class="container">
           <div class="footer-wrap">
             <div class="footer-left">
@@ -625,8 +643,16 @@
     </main>
     <!-- Main end -->
 
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
     <script src="assets/js/main.js"></script>
 
+    <!-- Swiper -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <script type="module">
@@ -649,5 +675,6 @@
         },
       });
     </script>
+
   </body>
 </html>

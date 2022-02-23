@@ -125,6 +125,19 @@ body {
 
 .btn-primary {
   background: var(--gradient);
+  transition: .3s ease;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 
 .btn-primary.bg-white {
@@ -135,6 +148,21 @@ body {
 .btn-secondary {
   background-color: transparent;
   border: 1px solid #fff;
+  transition: .3s ease;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -o-transition: .3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  color: var(--purple);
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 
 .btn-transparent {
@@ -189,6 +217,12 @@ body {
 .decor {
   position: absolute;
   z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.decor.left {
+  left: 0;
 }
 
 .right {
@@ -314,7 +348,7 @@ nav {
 }
 
 .hero {
-  background-image: url("../images/hero-bg.png");
+  background-image: url("../images/bg-hero.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,6 +419,7 @@ main {
 /* Project Management */
 
 #pm {
+  position: relative;
   padding: 4% 0;
 }
 
@@ -414,7 +449,7 @@ main {
 
 /* Chat */
 #chat {
-  background-image: url("../images/chat-bg.png");
+  background-image: url("../images/chat-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5% 0;
@@ -442,7 +477,7 @@ main {
 /* Work */
 
 #work {
-  background-image: url("../images/slider-bg.png");
+  background-image: url("../images/bg-slider.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
