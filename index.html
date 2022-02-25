@@ -57,7 +57,7 @@
                   </div>
                 </li>
                 <li class="link-item"><a href="">Pricing</a></li>
-                <li class="link-item"><a href="">Help Center</a></li>
+                <li class="link-item"><a href="help-center.html">Help Center</a></li>
                 <li>
                   <a href="#" class="btn btn-secondary on-mobo">Contact</a>
                 </li>
@@ -104,7 +104,7 @@
     <!-- Header end-->
 
     <!-- Main -->
-    <main>
+    <main class="main">
       <section class="image-top" data-aos="fade-up" data-aos-duration="2000">
         <div class="container">
           <img src="assets/images/db-img.svg" alt="db" />
@@ -145,7 +145,7 @@
             <h1 class="title">What the Features of Product</h1>
             <p class="subtitle">Features are highlighted here</p>
 
-            <div class="features-grid mt-4">
+            <div class="row-3 mt-4">
               <div class="feature" data-aos="fade-up">
                 <div class="icon-box">
                   <img src="assets/images/icon/task-square.svg" alt="icon" />
@@ -571,6 +571,13 @@
         </div>
       </div>
 
+      <!-- cookies -->
+      <div class="cookies">
+        <p class="subtitle">We use cookies to provide our services. By accessing our website, you agree to the use of cookies as described in our Cookie Policy.</p>
+        <button class="close">x</button>
+      </div>
+      <!-- cookies end -->
+
       <!-- Footer -->
       <footer data-aos="fade-up">
         <div class="container">
@@ -665,7 +672,7 @@
       const swiper = new Swiper(".swiper", {
         // Optional parameters
         direction: "horizontal",
-        loop: true,
+        loop: false,
 
         // If we need pagination
         pagination: {
